@@ -5,7 +5,7 @@ languageCode: en
 baseURL: 'https://oops.r3t.io'
 params:
   alwaysKeepBrandColor: true
-  brand: '#0a0c0f'
+  brand: '#1F75FF'
   categories:
     - description: All the important things.
       name: Colorado

@@ -40,6 +40,15 @@ params:
     - category: Colorado
       description: Public git repository
       name: Git
+    - category: Colorado
+      description: ''
+      name: vCenter
+    - category: Colorado
+      description: The backing storage cluster
+      name: vSAN
+    - category: Colorado
+      description: The core network controller
+      name: Network Controller
   useLargeHeaderDesign: false
   useLogo: false
 theme: cstate

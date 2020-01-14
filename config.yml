@@ -20,7 +20,7 @@ params:
       name: Git
   dateFormat: 'January 2, 2006 at 3:04 PM'
   description: Is this shit down? Maybe.
-  disableDarkMode: false
+  disableDarkMode: true
   disrupted: '#cc4400'
   down: '#e60000'
   googleAnalytics: UA-00000000-1

@@ -1,13 +1,15 @@
 ---
-title: vSAN is broken
-date: 2020-01-13 22:30:00
-resolved: false
-# resolvedWhen: 2019-10-05 16:58:00
-# Possible severity levels: down, disrupted, notice
-severity: down
-affected:
-  - API
 section: issue
+title: vSAN is broken
+date: 2020-01-14T05:30:00.000Z
+resolved: false
+resolvedWhen: ''
+affected:
+  - EVERYTHING
+severity: down
 ---
+vSAN won't reconfigure properly, so everything is running off the two emergency disks and shit is real broken, basically just vCenter and DNS are the only things online while I figure out wtf is wrong with it.
 
-vSAN won't reconfigure properly, so everything is running off the two emergency disks and shit is real broken, basically just vSphere and DNS are the only things online while I figure out wtf is wrong with it.
+
+
+This means pretty much everything is down. Well, there's no pretty much about it, shit's broken yo.

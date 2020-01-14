@@ -17,7 +17,7 @@ params:
     - link: 'https://cr.r3t.io'
       name: Harbor
     - link: 'https://git.r3t.io'
-      name: Gitea
+      name: Git
   dateFormat: 'January 2, 2006 at 3:04 PM'
   description: Is this shit down? Maybe.
   disableDarkMode: false
@@ -32,7 +32,14 @@ params:
   shortDateFormat: '15:04 — Jan 2'
   systems:
     - category: Colorado
-      name: Broomfield
+      description: The blog!
+      name: Ghost
+    - category: Colorado
+      description: Public container registry
+      name: Harbor
+    - category: Colorado
+      description: Public git repository
+      name: Git
   useLargeHeaderDesign: false
   useLogo: false
 theme: cstate

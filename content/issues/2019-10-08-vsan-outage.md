@@ -12,8 +12,10 @@ affected:
   - Network Controller
 severity: down
 ---
+### Cause
+
 vSAN won't reconfigure properly, so everything is running off the two emergency disks and shit is real broken, basically just vCenter and DNS are the only things online while I figure out wtf is wrong with it.
 
+### Update
 
-
-This means pretty much everything is down. Well, there's no pretty much about it, shit's broken yo.
+Well, there's no pretty much about it, shit's broken yo. So it turns out that I'm like...15 months behind on vSphere patches. Who knew, right? So I'm basically patching the fuck outta these hosts, trying to get all the versions in sync with my witness host, then I'm gonna try and re-enable vSAN and see what happens. If I can make it, it's late and I'm tired, lol. Maybe in the morning.

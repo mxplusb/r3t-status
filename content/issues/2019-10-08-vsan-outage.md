@@ -19,3 +19,7 @@ vSAN won't reconfigure properly, so everything is running off the two emergency 
 ### Update
 
 Well, there's no pretty much about it, shit's broken yo. So it turns out that I'm like...15 months behind on vSphere patches. Who knew, right? So I'm basically patching the fuck outta these hosts, trying to get all the versions in sync with my witness host, then I'm gonna try and re-enable vSAN and see what happens. If I can make it, it's late and I'm tired, lol. Maybe in the morning.
+
+### Update
+
+Okay, so I think the core problem has been fixed because there were a ridiculous amount of updates to be had on all sources, so I think we're all good. Things are migrating back and stuff should be turning back on here soon!

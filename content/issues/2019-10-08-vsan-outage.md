@@ -2,8 +2,8 @@
 section: issue
 title: vSAN is broken
 date: 2020-01-14T05:30:00.000Z
-resolved: false
-resolvedWhen: ''
+resolved: true
+resolvedWhen: 2020-01-16T22:45:00.000Z
 affected:
   - vSAN
   - Ghost
@@ -23,3 +23,5 @@ Well, there's no pretty much about it, shit's broken yo. So it turns out that I'
 ### Update
 
 Okay, so I think the core problem has been fixed because there were a ridiculous amount of updates to be had on all sources, so I think we're all good. Things are migrating back and stuff should be turning back on here soon!
+
+### All done!
